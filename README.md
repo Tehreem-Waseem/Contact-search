@@ -1,60 +1,69 @@
-📇 Contact Search using JavaScript
+📇 Contact Search
 
-A simple Contact Search Application built with HTML, CSS, and JavaScript.
-This project allows users to search for contacts by name from a predefined list and displays matching results in real-time.
+🔗 Live Demo: https://tehreem-waseem.github.io/Contact-search/
 
-🚀 Features
+A simple and clean Contact Search application built with vanilla JavaScript. ✨ Type a name and instantly find matching contacts from a predefined list!
 
-🔎 Real-time search functionality
+✨ Features
 
-📂 Contact data stored in a separate JavaScript file
+🔍 Easy search interface — enter a name and click "Search" to view results.
 
-🎨 Clean and responsive UI with basic CSS
+🧾 Highlight matches as cards showing name, email, and phone number.
 
-🖥️ Beginner-friendly code to understand DOM manipulation and event handling
+🎨 Clean UI with minimal design — built with HTML & CSS.
 
-🛠️ Technologies Used
+🚀 Starter project for learning DOM manipulation, event handling, and JavaScript modules.
 
-HTML – Structure of the app
+🛠 Tech Stack
+🖥 Technology	📌 Purpose
+🌐 HTML	Structure (input, button, results)
+🎨 CSS	Styling and layout
+⚡ JavaScript	Search logic & dynamic rendering
+📂 Folder Structure
+Contact-search/
+│── index.html         # User interface
+│── index.css          # Styles for layout and design
+│── contactsData.js    # Array of contact objects
+│── index.js           # Search logic and DOM manipulation
 
-CSS – Styling for a simple UI
+⚙️ How It Works
 
-JavaScript – Search logic and dynamic content rendering
+✍️ Type a query into the "Enter contact name" box.
 
-📂 Project Structure
-Contact-Search/
-│── index.html        # Main HTML file
-│── style.css         # Styling
-│── contactsData.js   # Contact list data
-│── script.js         # Search functionality
+🖱 Click Search.
 
-📸 Demo Screenshot
+🧩 The app filters through contactsArr using your input (case-insensitive).
 
-(Add your project screenshot here once deployed)
+📋 Matching contacts are displayed as cards below the input.
 
-🏃 How to Run
+🚀 Quick Start
 
-Clone this repository
+Clone the repo:
 
-git clone https://github.com/your-username/contact-search.git
+git clone https://github.com/Tehreem-Waseem/Contact-search.git
 
 
-Open index.html in your browser
+Navigate to the directory:
 
-Start searching for contacts in the input field!
+cd Contact-search
 
-🌐 Live Demo
 
-👉 View Project
+Open index.html in your browser.
 
-📖 Learning Outcomes
+🔍 Start searching!
 
-This project is perfect for JavaScript beginners to practice:
+🎯 Learning Goals
 
-Handling user input
+This project helps you practice:
 
-Working with arrays and strings
+📦 Working with JavaScript modules
 
-Updating the DOM dynamically
+🎛 Handling events and user input
 
-Separating logic into multiple files
+🏗 Manipulating the DOM
+
+🔎 Filtering data using arrays and regex
+
+📜 License
+
+This project is open-source and available under the MIT License.
