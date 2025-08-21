@@ -1,4 +1,4 @@
-import { contactsArr } from '/contactsData.js'
+import { contactsArr } from './contactsData.js'
 const patternSearchInput = document.getElementById('pattern-search-input')
 const patternSearchSubmit = document.getElementById('pattern-search-submit')
 const contactDisplay = document.getElementById('contact-display')
